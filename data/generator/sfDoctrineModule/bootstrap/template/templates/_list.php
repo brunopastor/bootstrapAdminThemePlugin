@@ -46,8 +46,8 @@
 /* <![CDATA[ */
 function toggleCheckboxes()
 {
-	var $mainCheckbox = $('#checkAll'),
-	    $boxes        = $('tbody [type="checkbox"]', $mainCheckbox.closest('table'));
+	var $mainCheckbox = $('#checkAll');
+	    $boxes        = $('tbody input[type="checkbox"]');
 	
 	if ($mainCheckbox.is(':checked'))
 		$boxes.attr('checked', 'checked');
