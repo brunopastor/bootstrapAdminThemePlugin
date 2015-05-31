@@ -1,0 +1,29 @@
+body {
+	background: url('/images/black_pattern.png');
+}
+.navbar {
+	background: #444;
+	border: #444;
+}
+.navbar .nav li a:hover {
+	color: #c12229;
+	background: #444;
+}
+.navbar .nav li a:focus {
+	background: #c12229;
+}
+.navbar .nav li a:focus:hover {
+	color: #ffffff;
+}
+.container {
+	box-shadow: 5px 5px 0px gray;
+}
+.modal.in .modal-dialog {
+	z-index: 9999;
+}
+.btn-group a, .btn-group-vertical a{
+	text-decoration: none;
+}
+img.form-control {
+  	height: 100%;
+}
