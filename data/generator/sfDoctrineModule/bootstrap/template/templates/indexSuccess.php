@@ -7,7 +7,7 @@
 <div id="sf_admin_container">
   <?php if ($this->configuration->hasFilterForm()): ?>
     <div class="pull-right">
-      <a href="#filterPopup" class="btn" data-toggle="modal"><i class="icon-search"></i> Filtrar</a>
+      <a href="#filterPopup" class="btn btn-info" data-toggle="modal"><i class="icon-search"></i> Filtrar</a>
     </div>
   <?php endif; ?>
   <h1>Listado</h1>
